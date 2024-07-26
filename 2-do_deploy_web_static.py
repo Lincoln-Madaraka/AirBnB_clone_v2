@@ -37,4 +37,3 @@ def do_deploy(archive_path):
             format(path, filename_wex)).failed is True:
         return False
     return True
-

@@ -22,4 +22,3 @@ LOCATION="location /hbnb_static {\n\t\t alias /data/web_static/current/;\n}\n"
 sudo sed -i "/server_name _;/a $LOCATION" "/etc/nginx/sites-available/default"
 # restart nginx
 sudo service nginx restart
-
